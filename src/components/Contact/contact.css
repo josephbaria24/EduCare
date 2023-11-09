@@ -17,8 +17,9 @@
 
 .contactDesc {
     padding: 1rem;
-    font-size: medium;
+    font-size: small;
     font-weight: 300;
+    margin: auto 0;
 }
 
 .contactForm {

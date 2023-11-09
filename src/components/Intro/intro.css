@@ -11,7 +11,7 @@
 .bg {
     position: absolute;
     top: 5rem;
-    right: 9rem;
+    right: 10rem;
     z-index: 0;
     object-fit: cover;
     height: 80vh;
@@ -82,7 +82,7 @@
 
 @media screen and (max-width:1024px) {
     .bg {
-        right: -20px;
+        right: -0px;
         filter: brightness(50%);
         z-index: -1;
     }
@@ -92,19 +92,19 @@
 
 }
 
-@media screen and (max-width:480px) {
+media screen and (max-width:480px) {
     .bg {
         right: -100px;
     }
 }
 
-@media screen and (max-width:375px) {
+media screen and (max-width:375px) {
     bg {
         right: -120px;
     }
 }
 
-@media screen and (max-width:330px) {
+media screen and (max-width:330px) {
     .bg {
         right: -150px;
     }
