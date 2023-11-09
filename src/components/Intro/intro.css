@@ -1,0 +1,111 @@
+#intro {
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.507);
+}
+
+
+.bg {
+    position: absolute;
+    top: 5rem;
+    right: 9rem;
+    z-index: 0;
+    object-fit: cover;
+    height: 80vh;
+    transition: transform 0.5s ease;
+}
+.bg:hover {
+    transform: translateX(20px);
+  }
+
+.introContent {
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    cursor: default;
+    margin-top: -5rem;
+}
+
+.hello {
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+
+.introName {
+    color: rgb(12, 225, 253);
+}
+
+.introPara {
+    font-size: medium;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.btn {
+    background: white;
+    margin: 1rem 0;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 2rem;
+}
+
+.btnImg {
+    object-fit: cover;
+    margin: 0 0.25rem;
+    height: 1rem;
+}
+
+.hr{
+    border: solid 1px white;
+}
+
+
+@media screen and (max-width:1386px) {
+    bg {
+        right: -10px;
+    }
+    .bg {
+        z-index: -1;
+        filter: brightness(50%); /* Adjust brightness to darken the image */
+      }
+    
+    }
+
+@media screen and (max-width:1024px) {
+    .bg {
+        right: -20px;
+        filter: brightness(50%);
+        z-index: -1;
+    }
+    hello {
+        font-size: 4.5vw;
+    }
+
+}
+
+@media screen and (max-width:480px) {
+    .bg {
+        right: -100px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    bg {
+        right: -120px;
+    }
+}
+
+@media screen and (max-width:330px) {
+    .bg {
+        right: -150px;
+    }
+}
