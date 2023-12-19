@@ -86,26 +86,4 @@
         filter: brightness(50%);
         z-index: -1;
     }
-    hello {
-        font-size: 4.5vw;
-    }
-
-}
-
-media screen and (max-width:480px) {
-    .bg {
-        right: -100px;
-    }
-}
-
-media screen and (max-width:375px) {
-    bg {
-        right: -120px;
-    }
-}
-
-media screen and (max-width:330px) {
-    .bg {
-        right: -150px;
-    }
 }

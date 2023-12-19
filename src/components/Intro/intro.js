@@ -8,7 +8,7 @@ const Intro = () => {
     <section id='intro'>
       <div className="introContent">
         <span className="hello">Good day!</span>
-        <span className="introText"><span class="introName">EduCare</span> <br />showcase team.</span>
+        <span className="introText"><span class="introName">PalawanSUAS</span> <br />showcase team.</span>
         <p className="introPara">Step into a world of collaborative learning and community engagement.<br /> Experience the fusion of design and functionality,<br /> empowering students within an innovative digital space.</p>
       </div>
       <div className="container">
