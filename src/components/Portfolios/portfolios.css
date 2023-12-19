@@ -12,7 +12,7 @@
   }
 .columns {
   display: flex;
-  flex-direction:row;
+  flex-wrap: wrap;
 }
 
 .about-us-header {
